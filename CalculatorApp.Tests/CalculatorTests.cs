@@ -4,6 +4,8 @@ using CalculatorApp;
 
 namespace CalculatorApp.Tests
 {
+    //[TestCaseOrderer("TestOrderExamples.TestCaseOrdering.AlphabeticalOrderer", "TestOrderExamples")]
+    [TestCaseOrderer("CalculatorApp.Tests.AlphabeticalOrderer", "TestOrderExamples")]
     public class CalculatorTests
     {
         [Theory]
